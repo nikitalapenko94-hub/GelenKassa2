@@ -1,0 +1,12 @@
+{
+  "name": "Касса — офлайн-учёт смены",
+  "short_name": "Касса",
+  "description": "Учёт смен, продаж, возвратов и наличных",
+  "lang": "ru",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f4f6f5",
+  "theme_color": "#153f35",
+  "icons": [{"src":"./icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]
+}
