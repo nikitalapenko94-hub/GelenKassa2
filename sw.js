@@ -1,4 +1,4 @@
-const CACHE = 'kassa-web-v22';
+const CACHE = 'kassa-web-v24';
 const CORE = ['./', './index.html', './manifest.json', './icon.svg'];
 self.addEventListener('install', event => {
   event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(CORE)).then(() => self.skipWaiting()));
